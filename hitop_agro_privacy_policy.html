@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Hitop Agro | حریم خصوصی هایتاپ اگرو</title>
+  <style>
+    :root {
+      --primary: #2e6f40;
+      --bg: #f7f9f7;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Tahoma, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+    .container {
+      max-width: 880px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    }
+    .lang-switch {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+    }
+    .lang-btn {
+      border: 1px solid var(--primary);
+      background: #fff;
+      color: var(--primary);
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .lang-btn.active {
+      background: var(--primary);
+      color: #fff;
+    }
+    h1 {
+      margin-top: 0;
+      color: var(--primary);
+      font-size: 26px;
+    }
+    h2 {
+      color: var(--primary);
+      font-size: 19px;
+      margin-top: 28px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+    ul { padding-inline-start: 22px; }
+    li { margin-bottom: 6px; }
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+    .rtl {
+      direction: rtl;
+      text-align: right;
+      font-family: Tahoma, "Vazirmatn", system-ui, sans-serif;
+    }
+    .hidden { display: none; }
+    a { color: var(--primary); }
+    .note-box {
+      background: #f0f7f2;
+      border-inline-start: 4px solid var(--primary);
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin: 16px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="lang-switch">
+        <button id="btn-en" class="lang-btn active" onclick="setLang('en')">English</button>
+        <button id="btn-fa" class="lang-btn" onclick="setLang('fa')">فارسی</button>
+      </div>
+
+      <!-- ENGLISH VERSION -->
+      <section id="section-en">
+        <h1>Privacy Policy for Hitop Agro</h1>
+        <p class="meta">
+          <strong>Package Name:</strong> ir.mlggrand.hitopAgro<br />
+          <strong>Developer:</strong> MLG Grand<br />
+          <strong>Last Updated:</strong> November 25, 2026
+        </p>
+
+        <p>
+          MLG Grand ("we", "our", or "us") developed the <strong>Hitop Agro</strong> application as a commercial agricultural, inventory, and accounting management app. This Privacy Policy explains how information is collected, used, stored, and protected when you use Hitop Agro.
+        </p>
+
+        <h2>1. Information Stored Locally on Your Device</h2>
+        <p>
+          Hitop Agro is designed with an offline-first architecture. Your business and agricultural records—including products/inventory, invoices, customer and farmer lists, accounting ledgers, cheques, expenses, farm details (including any farm coordinates you manually enter), field visits, soil/water/leaf test records, prescriptions, notes, shop details, and attached images—are stored <strong>locally on your device</strong>. We do not automatically upload or sell your business or customer records to our servers.
+        </p>
+
+        <h2>2. Information We Collect and Process</h2>
+        <p>When you use online features such as account sign-in, subscription management, or notifications, the following information may be transmitted to our servers (<code>mlggrand.ir</code> / <code>mlggrand2.ir</code>):</p>
+        <ul>
+          <li><strong>Account &amp; Contact Information:</strong> Your phone number (for OTP verification), full name, optional email address, and optional referral code. If you manage an organizational/team subscription, the phone numbers and names of team members you add are also processed for access management.</li>
+          <li><strong>Device &amp; Technical Information:</strong> A persistent app-generated device identifier, device brand, model, device name, operating system version, platform, and app version/build number—used to bind licenses/subscriptions to authorized devices and deliver compatible notifications.</li>
+          <li><strong>App Usage &amp; Telemetry Data:</strong> Basic session telemetry such as app launch count, active usage duration (periodic heartbeat pings), and notification interactions (read, dismissed, clicked) to maintain service reliability and license status.</li>
+          <li><strong>Local Error Logs:</strong> Diagnostic error logs and stack traces are recorded locally on your device and are only shared if you manually choose to export and send them to support.</li>
+        </ul>
+
+        <h2>3. App Permissions &amp; Their Purpose</h2>
+        <ul>
+          <li><strong>Camera:</strong> Used solely to scan product barcodes/QR codes and capture photos of products, farms, visits, or documents at your request.</li>
+          <li><strong>Storage / Photos &amp; Media:</strong> Used to attach images/files to records, export PDF/Excel reports, and create or restore local backup files.</li>
+          <li><strong>Bluetooth &amp; Nearby Devices / Location (Android 11 and below):</strong> Used exclusively to discover and connect to Bluetooth thermal printers for printing invoices and receipts. The app does not track or collect your background GPS location.</li>
+          <li><strong>Internet &amp; Network/Wi-Fi State:</strong> Used for OTP authentication, subscription verification, receiving in-app notices, optional Google Drive backups, payment redirects, and Wi-Fi/network printing.</li>
+        </ul>
+
+        <h2>4. Third-Party Services</h2>
+        <p>Hitop Agro integrates with the following third-party services only when you use the corresponding features:</p>
+        <ul>
+          <li><strong>Google Sign-In &amp; Google Drive API (Optional Cloud Backup):</strong> If you choose to back up or restore your data using Google Drive, you authenticate directly with your Google account. Authentication tokens are stored securely on your device, and the app only accesses files it creates for backup/restore purposes. We do not access, sell, or share your other Google Drive files.</li>
+          <li><strong>Payment Gateways (e.g., Zarinpal):</strong> When purchasing a subscription, you are redirected to an external payment gateway. We do not collect or store your bank card numbers, PINs, or payment credentials.</li>
+          <li><strong>Google ML Kit Barcode Scanning:</strong> Processes barcode frames locally on your device for scanning.</li>
+        </ul>
+
+        <h2>5. Data Security &amp; Retention</h2>
+        <p>
+          All communications with our servers use HTTPS encryption. Authentication credentials and tokens are stored in encrypted/secure local storage on your device. Account and subscription data are retained only as long as your account or subscription remains active or as required by applicable law.
+        </p>
+
+        <h2>6. Account &amp; Data Deletion</h2>
+        <p>
+          You can delete local business data at any time from within the app or by uninstalling the app. To request permanent deletion of your account and server-side records (phone number, profile, and connected device records), please contact us at <a href="mailto:support@mlggrand.ir">support@mlggrand.ir</a> with your registered phone number. Requests are processed within a reasonable timeframe.
+        </p>
+
+        <h2>7. Children's Privacy</h2>
+        <p>
+          Hitop Agro is a business and agricultural management tool and is not intended for children under the age of 13. We do not knowingly collect personal information from children.
+        </p>
+
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date.
+        </p>
+
+        <h2>9. Contact Us</h2>
+        <p>
+          If you have any questions or requests regarding this Privacy Policy, please contact us:
+        </p>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:support@mlggrand.ir">support@mlggrand.ir</a></li>
+          <li><strong>Website:</strong> <a href="https://mlggrand.ir" target="_blank" rel="noopener">https://mlggrand.ir</a></li>
+          <li><strong>Telegram:</strong> <a href="https://t.me/mlg_grand" target="_blank" rel="noopener">https://t.me/mlg_grand</a></li>
+        </ul>
+      </section>
+
+      <!-- PERSIAN VERSION -->
+      <section id="section-fa" class="rtl hidden">
+        <h1>سیاست حفظ حریم خصوصی اپلیکیشن هایتاپ اگرو (Hitop Agro)</h1>
+        <p class="meta">
+          <strong>شناسه برنامه:</strong> ir.mlggrand.hitopAgro<br />
+          <strong>توسعه‌دهنده:</strong> گروه نرم‌افزاری MLG Grand<br />
+          <strong>آخرین به‌روزرسانی:</strong> ۴ آذر ۱۴۰۵ (۲۵ نوامبر ۲۰۲۶)
+        </p>
+
+        <p>
+          اپلیکیشن <strong>هایتاپ اگرو (Hitop Agro)</strong> توسط تیم <strong>MLG Grand</strong> برای مدیریت امور کشاورزی، گیاه‌پزشکی، انبارداری و حسابداری طراحی و عرضه شده است. این سند توضیح می‌دهد که هنگام استفاده از برنامه، چه اطلاعاتی ذخیره، پردازش و محافظت می‌شوند.
+        </p>
+
+        <h2>۱. داده‌های تجاری و عملیاتی (ذخیره‌سازی محلی)</h2>
+        <p>
+          هایتاپ اگرو با ساختار آفلاین‌محور طراحی شده است. تمامی اطلاعات کسب‌وکار و کشاورزی شما از جمله فهرست کالاها، فاکتورها، دفتر معین، چک‌ها، هزینه‌ها، مشتریان، باغداران، مشخصات مزارع (از جمله مختصات جغرافیایی که به‌صورت دستی ثبت می‌کنید)، بازدیدهای میدانی، آزمایشات خاک/آب/برگ، نسخه‌ها، یادداشت‌ها، مشخصات فروشگاه و تصاویر پیوست‌شده <strong>به‌صورت محلی روی حافظه دستگاه شما</strong> ذخیره می‌شوند و بدون اقدام مستقیم شما به سرورهای ما ارسال نمی‌گردند.
+        </p>
+
+        <h2>۲. اطلاعاتی که برای خدمات آنلاین جمع‌آوری می‌شود</h2>
+        <p>در صورت استفاده از بخش‌های آنلاین مانند ورود به حساب کاربری، مدیریت اشتراک و دریافت اعلانات، اطلاعات زیر به سرورهای ما (<code>mlggrand.ir</code> و <code>mlggrand2.ir</code>) ارسال می‌شود:</p>
+        <ul>
+          <li><strong>اطلاعات حساب کاربری:</strong> شماره تلفن همراه (جهت ارسال و تایید کد پیامکی)، نام، ایمیل (اختیاری) و کد معرف (اختیاری). در صورت استفاده از اشتراک سازمانی/تیمی، نام و شماره تماس همکارانی که اضافه می‌کنید برای مدیریت دسترسی پردازش می‌شود.</li>
+          <li><strong>مشخصات دستگاه:</strong> شناسه یکتای تولیدشده توسط برنامه، برند، مدل، نام دستگاه، نسخه سیستم‌عامل، پلتفرم و نسخه برنامه جهت اتصال امن لایسنس به دستگاه‌های مجاز و ارسال اعلانات متناسب.</li>
+          <li><strong>آمار استفاده (تلمتری):</strong> تعداد دفعات اجرای برنامه، مدت‌زمان حضور فعال در برنامه و وضعیت تعامل با اعلانات (خوانده‌شده، بسته‌شده یا کلیک‌شده) جهت پایداری سرویس و بررسی اعتبار اشتراک.</li>
+          <li><strong>گزارش‌های خطا:</strong> لاگ خطاهای فنی فقط به‌صورت محلی روی دستگاه ذخیره می‌شوند و تنها در صورت انتخاب و ارسال دستی توسط شما در اختیار پشتیبانی قرار می‌گیرند.</li>
+        </ul>
+
+        <h2>۳. مجوزهای دسترسی برنامه و کاربرد آن‌ها</h2>
+        <ul>
+          <li><strong>دوربین (Camera):</strong> صرفاً برای اسکن بارکد/QR کالاها و ثبت تصویر محصولات، مزارع، بازدیدها یا مدارک بنا به درخواست شما.</li>
+          <li><strong>حافظه و فایل‌ها (Storage / Media):</strong> برای انتخاب و ذخیره تصاویر کالاها و مزارع، تهیه خروجی PDF و اکسل و ایجاد یا بازیابی فایل‌های پشتیبان محلی.</li>
+          <li><strong>بلوتوث و مکان تقریبی/دقیق (در اندروید ۱۱ و پایین‌تر):</strong> منحصراً برای جستجو و اتصال به پرینترهای حرارتی بلوتوثی جهت چاپ فاکتور و قبض. برنامه موقعیت مکانی (GPS) کاربر را در پس‌زمینه ردیابی نمی‌کند.</li>
+          <li><strong>اینترنت و وضعیت شبکه/وای‌فای:</strong> برای احراز هویت پیامکی، بررسی اشتراک، دریافت اعلانات، پشتیبان‌گیری اختیاری در گوگل درایو، انتقال به درگاه پرداخت و چاپ از طریق پرینتر شبکه‌ای.</li>
+        </ul>
+
+        <h2>۴. سرویس‌های شخص ثالث</h2>
+        <ul>
+          <li><strong>ورود با گوگل و Google Drive (پشتیبان‌گیری ابری اختیاری):</strong> در صورت تمایل شما به تهیه یا بازیابی نسخه پشتیبان در گوگل درایو، اتصال مستقیماً با حساب گوگل شما برقرار می‌شود. توکن دسترسی به‌صورت امن روی دستگاه نگهداری شده و برنامه فقط به فایل‌های پشتیبان ساخته‌شده توسط خودش دسترسی دارد و هیچ دسترسی یا اشتراک‌گذاری با سایر فایل‌های شما انجام نمی‌دهد.</li>
+          <li><strong>درگاه پرداخت اینترنتی (مانند زرین‌پال):</strong> پرداخت هزینه اشتراک از طریق مرورگر و درگاه بانکی معتبر انجام می‌شود؛ برنامه هیچ‌گونه اطلاعات کارت بانکی یا رمز شما را دریافت و ذخیره نمی‌کند.</li>
+          <li><strong>اسکنر بارکد Google ML Kit:</strong> پردازش تصاویر بارکد به‌صورت آفلاین و روی دستگاه انجام می‌شود.</li>
+        </ul>
+
+        <h2>۵. امنیت و نگهداری داده‌ها</h2>
+        <p>
+          ارتباطات برنامه با سرور از طریق پروتکل امن HTTPS انجام می‌شود و توکن‌های احراز هویت در حافظه امن دستگاه نگهداری می‌گردند. اطلاعات حساب و اشتراک تا زمانی که حساب کاربری شما فعال باشد یا طبق قوانین الزامی باشد نگهداری می‌شوند.
+        </p>
+
+        <h2>۶. حذف حساب کاربری و داده‌ها</h2>
+        <p>
+          شما می‌توانید هر زمان داده‌های محلی خود را از داخل برنامه یا با حذف برنامه پاک کنید. برای درخواست حذف دائمی حساب کاربری و اطلاعات ثبت‌شده روی سرور (شماره تماس، نام و دستگاه‌های متصل)، کافی است شماره تماس ثبت‌شده خود را به ایمیل <a href="mailto:support@mlggrand.ir">support@mlggrand.ir</a> ارسال کنید تا در اسرع وقت اقدام شود.
+        </p>
+
+        <h2>۷. حریم خصوصی کودکان</h2>
+        <p>
+          هایتاپ اگرو یک ابزار تخصصی مدیریت کسب‌وکار و کشاورزی است و برای افراد زیر ۱۳ سال طراحی نشده است.
+        </p>
+
+        <h2>۸. تغییرات در سیاست حریم خصوصی</h2>
+        <p>
+          در صورت بروزرسانی قوانین حریم خصوصی، نسخه جدید همراه با تاریخ تغییر در همین صفحه منتشر خواهد شد.
+        </p>
+
+        <h2>۹. راه‌های ارتباطی</h2>
+        <ul>
+          <li><strong>ایمیل پشتیبانی:</strong> <a href="mailto:support@mlggrand.ir">support@mlggrand.ir</a></li>
+          <li><strong>وب‌سایت:</strong> <a href="https://mlggrand.ir" target="_blank" rel="noopener">https://mlggrand.ir</a></li>
+          <li><strong>تلگرام:</strong> <a href="https://t.me/mlg_grand" target="_blank" rel="noopener">https://t.me/mlg_grand</a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    function setLang(lang) {
+      const en = document.getElementById('section-en');
+      const fa = document.getElementById('section-fa');
+      const btnEn = document.getElementById('btn-en');
+      const btnFa = document.getElementById('btn-fa');
+      if (lang === 'fa') {
+        en.classList.add('hidden');
+        fa.classList.remove('hidden');
+        btnFa.classList.add('active');
+        btnEn.classList.remove('active');
+      } else {
+        fa.classList.add('hidden');
+        en.classList.remove('hidden');
+        btnEn.classList.add('active');
+        btnFa.classList.remove('active');
+      }
+    }
+  </script>
+</body>
+</html>
